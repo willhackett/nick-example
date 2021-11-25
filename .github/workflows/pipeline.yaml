@@ -11,3 +11,11 @@ jobs:
       - run: sh deploy/script.sh
         env:
           POTATO: 1234
+      - run: |
+          echo
+          good
+          things
+          happen
+          on
+          new
+          lines
