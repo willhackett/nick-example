@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Hello What's Up!"
+directory=$(pwd)
 
-echo "I like $POTATO"
+echo $directory
