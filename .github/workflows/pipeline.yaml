@@ -7,4 +7,4 @@ jobs:
     name: 'Build'
     runs-on: ubuntu-latest
     steps:
-      - run: ./script.sh
+      - run: ./deploy/script.sh
