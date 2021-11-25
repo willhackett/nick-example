@@ -12,10 +12,10 @@ jobs:
         env:
           POTATO: 1234
       - run: |
-          echo
-          good
-          things
-          happen
-          on
-          new
+          echo \
+          good \
+          things \
+          happen \
+          on \
+          new \
           lines
