@@ -7,4 +7,4 @@ jobs:
     name: 'Build'
     runs-on: ubuntu-latest
     steps:
-      - run: ./deploy/script.sh
+      - run: $GITHUB_WORKSPACE/deploy/script.sh
